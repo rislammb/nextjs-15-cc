@@ -12,3 +12,5 @@ export function formatDate(date: string) {
     year: "numeric",
   });
 }
+
+export const formatViewText = (views: number) => (views > 1 ? "Views" : "View");

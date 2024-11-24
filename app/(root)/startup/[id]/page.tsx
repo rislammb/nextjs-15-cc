@@ -78,7 +78,7 @@ export default async function StartupDetailsPage({
         {/* TODO: EDITOR SELECTED STARTUPS */}
 
         <Suspense fallback={<Skeleton className="view_skeleton" />}>
-          <View />
+          <View id={id} />
         </Suspense>
       </section>
     </>
