@@ -14,3 +14,7 @@ export function formatDate(date: string) {
 }
 
 export const formatViewText = (views: number) => (views > 1 ? "Views" : "View");
+
+export function parseServerActionResponse<T>(response: T) {
+  return JSON.parse(JSON.stringify(response));
+}
