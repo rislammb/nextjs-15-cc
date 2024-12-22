@@ -9,8 +9,6 @@ import { Suspense } from "react";
 import { Skeleton } from "@/components/ui/skeleton";
 import View from "@/components/View";
 
-export const experimental_ppr = true;
-
 export default async function StartupDetailsPage({
   params,
 }: {
@@ -33,7 +31,7 @@ export default async function StartupDetailsPage({
       </section>
 
       <section className="section_container">
-        <img
+        <Image
           src={post.image}
           alt="thumbnail"
           className="w-full h-auto rounded-xl"
