@@ -7,8 +7,6 @@ import Image from "next/image";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
 
-const experimental_ppr = true;
-
 export default async function UserPage({
   params,
 }: {

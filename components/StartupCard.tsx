@@ -51,11 +51,7 @@ export default function StartupCard({ post }: { post: StartupTypeCard }) {
 
       <Link href={`/startup/${_id}`}>
         <p className="startup-card_desc">{description}</p>
-        <Image
-          src={image || ""}
-          alt={title || ""}
-          className="startup-card_img"
-        />
+        <img src={image} alt={title} className="startup-card_img" />
       </Link>
 
       <div className="flex-between gap-3 mt-5">
