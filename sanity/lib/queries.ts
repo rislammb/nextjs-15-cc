@@ -6,7 +6,7 @@ export const STARTUP_QUERY =
     title, 
     slug,
     image,
-    __,
+    _createdAt,
     author -> {
       _id, name, image, bio
     },
@@ -21,7 +21,7 @@ export const STARTUP_BY_ID_QUERY =
     title, 
     slug,
     image,
-    __,
+    _createdAt,
     author -> {
      _id, name, username, image, bio
     },
