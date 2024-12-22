@@ -21,7 +21,6 @@ export default function StartupForm() {
   const { toast } = useToast();
 
   const handleFormSubmit = async (prevState: any, formData: FormData) => {
-    console.log("submitting...");
     try {
       const formValues = {
         title: formData.get("title") as string,
