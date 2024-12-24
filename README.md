@@ -1,4 +1,4 @@
-### App Description for a Next.js 15, Sanity, and Sentry Integrated Application
+# Next.js 15, Sanity, and Sentry Integrated Application
 
 This application is a dynamic and user-friendly platform for exploring and sharing ideas or startups. Built with **Next.js 15**, powered by **Sanity CMS**, and monitored via **Sentry**, it ensures a seamless experience for users and robust performance. Key features include:
 
